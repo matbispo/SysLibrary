@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Domain.Interfaces.Repositories
 {
-    interface ILivroRepository : IRepositoryBase<Livro>
+    public interface ILivroRepository : IRepositoryBase<Livro>
     {
     }
 }

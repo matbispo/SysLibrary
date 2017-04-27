@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Domain.Entities
 {
-    class Usuario
+    public class Usuario
     {
         public int id { get; set; }
         public string desc_assunto { get; set; }

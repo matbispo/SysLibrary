@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Domain.Entities
 {
-    class Emprestimo
+    public class Emprestimo
     {
         public int id { get; set; }
         public Usuario usuario { get; set; }

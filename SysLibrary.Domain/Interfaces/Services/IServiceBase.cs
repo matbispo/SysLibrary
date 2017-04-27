@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Domain.Interfaces.Services
 {
-    interface IServiceBase
+    public interface IServiceBase<TEntity> where TEntity: class
     {
+        void add(TEntity obj);
+
+        void Remove(TEntity obj);
+
+        void Update(TEntity obj);
+
+        void Dispose();
+
+        TEntity GetById(int id);
+
+        IEnumerable<TEntity> GetAll();
     }
 }

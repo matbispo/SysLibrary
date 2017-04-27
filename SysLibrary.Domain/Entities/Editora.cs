@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Domain.Entities
 {
-    class Editora
+    public class Editora
     {
         public int id { get; set; }
         public string desc_editora { get; set; }

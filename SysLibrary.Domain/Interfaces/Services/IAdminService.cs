@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SysLibrary.Domain.Interfaces.Repositories
+namespace SysLibrary.Domain.Interfaces.Services
 {
-    public interface IUsuarioRepository : IRepositoryBase<Usuario>
+    public interface IAdminService: IServiceBase<Admin>
     {
     }
 }

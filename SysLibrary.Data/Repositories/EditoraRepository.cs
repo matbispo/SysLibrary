@@ -1,13 +1,15 @@
 ﻿using SysLibrary.Domain.Entities;
+using SysLibrary.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SysLibrary.Domain.Interfaces.Repositories
+namespace SysLibrary.Data.Repositories
 {
-    public interface IUsuarioRepository : IRepositoryBase<Usuario>
+    class EditoraRepository: RepositoryBase<Editora>, IEditoraRepository
     {
+
     }
 }

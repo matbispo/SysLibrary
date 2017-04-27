@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Domain.Entities
 {
-    class Livro
+    public class Livro
     {
         public int livroId { get; set; }
         public string tituto_livro { get; set; }

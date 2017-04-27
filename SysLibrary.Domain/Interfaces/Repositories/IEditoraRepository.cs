@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Domain.Interfaces.Repositories
 {
-    interface IEditoraRepository : IRepositoryBase<Editora>
+    public interface IEditoraRepository : IRepositoryBase<Editora>
     {
     }
 }

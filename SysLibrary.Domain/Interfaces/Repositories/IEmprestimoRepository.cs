@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Domain.Interfaces.Repositories
 {
-    interface IEmprestimoRepository : IRepositoryBase<Emprestimo>
+    public interface IEmprestimoRepository : IRepositoryBase<Emprestimo>
     {
     }
 }
