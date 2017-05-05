@@ -11,7 +11,13 @@ namespace SysLibrary.Data.EntityConfig
     {
         public AdminConfig()
         {
-
+            ToTable("Admins");
+            HasKey(a=> a.AdminId);
+            Property(a => a.emailAdm).IsRequired().HasMaxLength(150);
+            Property(a => a.login).IsRequired().HasMaxLength(50);
+            Property(a => a.nomeAdm).IsRequired().HasMaxLength(150);
+            Property(a => a.senha).IsRequired().HasMaxLength(30);
+            Property(a => a.registroFuncionario).IsRequired().HasMaxLength(15);
         }
     }
 }

@@ -8,7 +8,11 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Data.Repositories
 {
-    class AssuntoRepository: RepositoryBase<Assunto>, IAssuntoRepository
+    class AssuntoRepository : RepositoryBase<Assunto>, IAssuntoRepository
     {
+        public IEnumerable<Assunto> buscarAssunto(string assunto)
+        {
+            return db.Assuntos.ToList().Where(a=> a.descAssunto == assunto);
+        }
     }
 }

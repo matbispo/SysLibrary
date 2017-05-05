@@ -9,6 +9,6 @@ namespace SysLibrary.Domain.Interfaces.Services
 {
     public interface IAssuntoService : IServiceBase<Assunto>
     {
-
+        IEnumerable<Assunto> buscarAssunto(string assunto);
     }
 }

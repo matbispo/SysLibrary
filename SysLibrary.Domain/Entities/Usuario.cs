@@ -8,8 +8,22 @@ namespace SysLibrary.Domain.Entities
 {
     public class Usuario
     {
-        public int id { get; set; }
-        public string desc_assunto { get; set; }
-        ICollection<Livro> livros { get; set; }
+        public int UsuarioId { get; set; }
+
+        public string nome { get; set; }
+        public string sexo { get; set; }
+        public DateTime data_nasc { get; set; }
+        public string email { get; set; }
+        public string cpf { get; set; }
+        public string telefone { get; set; }
+        public string celular { get; set; }
+        public string senha { get; set; }
+
+        public bool elegivelEmprestimo { get; set; }
+        
+
+        public IEnumerable<Emprestimo> emprestimos { get; set; }
+
+
     }
 }

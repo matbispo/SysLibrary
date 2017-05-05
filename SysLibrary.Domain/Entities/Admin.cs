@@ -9,9 +9,10 @@ namespace SysLibrary.Domain.Entities
     public class Admin
     {
         public int AdminId { get; set; }
-        public string nome_adm { get; set; }
-        public string email_adm { get; set; }
+        public string nomeAdm { get; set; }
+        public string emailAdm { get; set; }
+        public string login { get; set; }
         public string senha { get; set; }
-        public string Login { get; set; }
+        public string registroFuncionario { get; set; }
     }
 }

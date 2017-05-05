@@ -9,5 +9,12 @@ namespace SysLibrary.Domain.Interfaces.Repositories
 {
     public interface ILivroRepository : IRepositoryBase<Livro>
     {
+        IEnumerable<Livro> listarDisponiveis();
+
+        IEnumerable<Livro> buscarTitulo(string titulo);
+
+        IEnumerable<Livro> buscarAssunto(string assunto);
+
+        IEnumerable<Livro> buscarAutor(string autor);
     }
 }

@@ -12,6 +12,9 @@ namespace SysLibrary.Data.EntityConfig
     {
         public EditoraConfig()
         {
+            ToTable("Editoras");
+            HasKey(e => e.editoraId);
+            Property(e => e.descEditora).IsRequired().HasMaxLength(100);
 
         }
     }

@@ -9,6 +9,6 @@ namespace SysLibrary.Domain.Interfaces.Repositories
 {
     public interface IAssuntoRepository: IRepositoryBase<Assunto>
     {
-
+        IEnumerable<Assunto> buscarAssunto(string assunto);
     }
 }

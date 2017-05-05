@@ -9,5 +9,6 @@ namespace SysLibrary.Domain.Interfaces.Repositories
 {
     public interface IEditoraRepository : IRepositoryBase<Editora>
     {
+        IEnumerable<Editora> buscarEditora(string editora);
     }
 }

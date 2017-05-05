@@ -12,7 +12,10 @@ namespace SysLibrary.Data.EntityConfig
     {
         public AutorConfig()
         {
-                
+            ToTable("Autores");
+            HasKey(a => a.autorId);
+            Property(a => a.nomeAutor).IsRequired().HasMaxLength(100);
+
         }
     }
 }

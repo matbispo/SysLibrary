@@ -8,8 +8,8 @@ namespace SysLibrary.Domain.Entities
 {
     public class Autor
     {
-        public int id { get; set; }
-        public string nome_autor { get; set; }
+        public int autorId { get; set; }
+        public string nomeAutor { get; set; }
 
         public ICollection<Livro> livros { get; set; }
     }

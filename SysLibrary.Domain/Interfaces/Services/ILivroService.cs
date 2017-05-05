@@ -9,5 +9,12 @@ namespace SysLibrary.Domain.Interfaces.Services
 {
     public interface ILivroService : IServiceBase<Livro>
     {
+        IEnumerable<Livro> buscarTitulo(string titulo);
+
+        IEnumerable<Livro> buscarAssunto(string assunto);
+
+        IEnumerable<Livro> buscarAutor(string autor);
+
+        IEnumerable<Livro> listarDisponiveis();
     }
 }

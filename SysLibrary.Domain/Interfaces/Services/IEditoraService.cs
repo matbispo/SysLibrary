@@ -9,5 +9,6 @@ namespace SysLibrary.Domain.Interfaces.Services
 {
     public interface IEditoraService : IServiceBase<Editora>
     {
+        IEnumerable<Editora> buscarEditora(string editora);
     }
 }

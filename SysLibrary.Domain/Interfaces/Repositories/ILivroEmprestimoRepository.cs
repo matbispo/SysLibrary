@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SysLibrary.Domain.Interfaces.Services
+namespace SysLibrary.Domain.Interfaces.Repositories
 {
-    public interface IAutorService : IServiceBase<Autor>
+    public interface ILivroEmprestimoRepository: IRepositoryBase<LivroEmprestimo>
     {
-        IEnumerable<Autor> buscarAutor(string autor);
+
     }
 }

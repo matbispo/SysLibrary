@@ -9,5 +9,6 @@ namespace SysLibrary.Domain.Interfaces.Repositories
 {
     public interface IAutorRepository : IRepositoryBase<Autor>
     {
+        IEnumerable<Autor> buscarAutor(string autor);
     }
 }

@@ -9,5 +9,6 @@ namespace SysLibrary.Domain.Interfaces.Repositories
 {
     public interface IEmprestimoRepository : IRepositoryBase<Emprestimo>
     {
+
     }
 }

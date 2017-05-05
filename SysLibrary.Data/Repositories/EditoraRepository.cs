@@ -8,8 +8,11 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Data.Repositories
 {
-    class EditoraRepository: RepositoryBase<Editora>, IEditoraRepository
+    class EditoraRepository : RepositoryBase<Editora>, IEditoraRepository
     {
-
+        public IEnumerable<Editora> buscarEditora(string editora)
+        {
+            return db.Editoras.ToList().Where(e => e.descEditora  == editora);
+        }
     }
 }

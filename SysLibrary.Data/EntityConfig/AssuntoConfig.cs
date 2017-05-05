@@ -12,7 +12,11 @@ namespace SysLibrary.Data.EntityConfig
     {
         public AssuntoConfig()
         {
-                
+            ToTable("Assuntos");
+            HasKey(a=> a.Assuntoid);
+            Property(a => a.descAssunto).IsRequired().HasMaxLength(30);
+
+
         }
     }
 }

@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Domain.Interfaces.Services
 {
-    public interface IAutorService : IServiceBase<Autor>
+    interface ILivroEmprestimoService: IServiceBase<LivroEmprestimo>
     {
-        IEnumerable<Autor> buscarAutor(string autor);
     }
 }

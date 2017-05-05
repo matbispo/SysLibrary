@@ -12,7 +12,11 @@ namespace SysLibrary.Data.EntityConfig
     {
         public EmprestimoConfig()
         {
-
+            ToTable("Emprestimos");
+            HasKey(e => e.emprestimoId);
+            Property(e => e.dataEmprestimo).IsRequired();
+            Property(e => e.dataPrevistaDevolucao).IsRequired();
+            Property(e => e.status).IsRequired().HasMaxLength(20);
         }
     }
 }

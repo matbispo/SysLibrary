@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 
 namespace SysLibrary.Data.Repositories
 {
-    class EmprestimoRepository : RepositoryBase<Emprestimo>, IEmprestimoRepository
+    class LivroEmprestimoRepository: RepositoryBase<LivroEmprestimo>, ILivroEmprestimoRepository
     {
-
     }
 }

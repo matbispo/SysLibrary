@@ -46,12 +46,15 @@
     <Compile Include="Entities\Editora.cs" />
     <Compile Include="Entities\Emprestimo.cs" />
     <Compile Include="Entities\Livro.cs" />
+    <Compile Include="Entities\LivroEmprestimo.cs" />
     <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Entities\UsuarioSuspenso.cs" />
     <Compile Include="Interfaces\Repositories\IAdminRepository.cs" />
     <Compile Include="Interfaces\Repositories\IAssuntoRepository.cs" />
     <Compile Include="Interfaces\Repositories\IAutorRepository.cs" />
     <Compile Include="Interfaces\Repositories\IEditoraRepository.cs" />
     <Compile Include="Interfaces\Repositories\IEmprestimoRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ILivroEmprestimoRepository.cs" />
     <Compile Include="Interfaces\Repositories\ILivroRepository.cs" />
     <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
     <Compile Include="Interfaces\Repositories\IUsuarioRepository.cs" />
@@ -60,6 +63,7 @@
     <Compile Include="Interfaces\Services\IAutorService.cs" />
     <Compile Include="Interfaces\Services\IEditoraService.cs" />
     <Compile Include="Interfaces\Services\IEmprestimoService.cs" />
+    <Compile Include="Interfaces\Services\ILivroEmprestimoService.cs" />
     <Compile Include="Interfaces\Services\ILivroService.cs" />
     <Compile Include="Interfaces\Services\IServiceBase.cs" />
     <Compile Include="Interfaces\Services\IUsuarioService.cs" />
@@ -69,6 +73,7 @@
     <Compile Include="Services\AutorService.cs" />
     <Compile Include="Services\EditoraService.cs" />
     <Compile Include="Services\EmprestimoService.cs" />
+    <Compile Include="Services\LivroEmprestimoService.cs" />
     <Compile Include="Services\LivroService.cs" />
     <Compile Include="Services\ServiceBase.cs" />
     <Compile Include="Services\UsuarioService.cs" />

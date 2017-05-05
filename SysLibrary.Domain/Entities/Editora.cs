@@ -8,8 +8,9 @@ namespace SysLibrary.Domain.Entities
 {
     public class Editora
     {
-        public int id { get; set; }
-        public string desc_editora { get; set; }
+        public int editoraId { get; set; }
+        public string descEditora { get; set; }
         ICollection<Livro> livros { get; set; }
+
     }
 }

@@ -18,5 +18,25 @@ namespace SysLibrary.Domain.Services
         {
             _repository = repositoryLivro;
         }
+
+        public IEnumerable<Livro> buscarAssunto(string assunto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Livro> buscarAutor(string autor)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Livro> buscarTitulo(string titulo)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Livro> listarDisponiveis()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

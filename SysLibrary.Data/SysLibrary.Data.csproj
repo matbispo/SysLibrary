@@ -56,13 +56,16 @@
     <Compile Include="EntityConfig\EditoraConfig.cs" />
     <Compile Include="EntityConfig\EmprestimoConfig.cs" />
     <Compile Include="EntityConfig\LivroConfig.cs" />
+    <Compile Include="EntityConfig\LivroEmprestimoConfig.cs" />
     <Compile Include="EntityConfig\UsuarioConfig.cs" />
+    <Compile Include="EntityConfig\UsuarioSuspensoConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AdminRepository.cs" />
     <Compile Include="Repositories\AssuntoRepository.cs" />
     <Compile Include="Repositories\AutorRepository.cs" />
     <Compile Include="Repositories\EditoraRepository.cs" />
     <Compile Include="Repositories\EmprestimoRepository.cs" />
+    <Compile Include="Repositories\LivroEmprestimoRepository.cs" />
     <Compile Include="Repositories\LivroRepository.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\UsuarioRepository.cs" />
